@@ -1,30 +1,329 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RaikaNwin Afrand</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="preconnect" href="//fdn.fontcdn.ir" />
+    <link rel="preconnect" href="//v1.fontapi.ir" />
+    <link
+      href="https://v1.fontapi.ir/css/Sahel:400;500;600;700,800,900"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="section-hero">
-      <div class="hero">
-        <div class="hero-text-box">
-          <h1 class="heading-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio.
-          </h1>
-          <p class="hero-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-            exercitationem harum cupiditate error repudiandae iste tenetur
-            commodi eius, aliquid neque sit.
-          </p>
-          <a href="#" class="btn">Signup now</a>
-          <a href="#">About us &darr;</a>
+    <header class="header">
+      <a href="index.html">
+        <img class="logo" src="img/R-logo.png" alt="Raikanwin Afrand" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="index.html#services">خدمات</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="index.html#clients">مشتریان</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="index.html#features">ویژگیها</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="index.html#partners">اعضاء</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="contact.html"
+              >مشاوره رایگان</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              رهبری در طراحی و اجرای سیستم‌های امنیتی و سازه‌های فلزی با
+              بهره‌گیری از دانش فنی عمیق
+            </h1>
+            <p class="hero-description">
+              در <b>رایکا نوین افرند</b> ما به عنوان رهبران در زمینه مهندسی و
+              ساختمان، با استفاده از تجربه و دانش فنی عمیق خود، در طراحی و اجرای
+              سیستم‌های امنیتی و سازه‌های فلزی متمایز هستیم. ما به دقت و کیفیت
+              بالا، به عنوان پیشتازان در صنعت، به هدف خود در ارائه راهکارهایی که
+              امنیت، استحکام، و نوآوری را به همراه دارند، پایبندیم
+            </p>
+            <a href="contact.html" class="btn btn--full margin-right-sm"
+              >تماس با ما</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <img src="img/hero.png" alt="cctv-engineer" class="hero-img" />
+          </div>
         </div>
-        <div class="hero-img-box">
-          <img src="hero.jpg" alt="cctv-engineer" class="hero-img" />
+      </section>
+
+      <section id="clients" class="section-clients">
+        <div class="container">
+          <h2 class="heading-clients">مشتریان</h2>
+          <div class="logos">
+            <img class="client-img" src="img/1.png" alt="keren_5" />
+            <img class="client-img" src="img/3.png" alt="keren_5" />
+            <img class="client-img" src="img/1.png" alt="keren_5" />
+            <img class="client-img" src="img/3.png" alt="keren_5" />
+            <img class="client-img" src="img/1.png" alt="keren_5" />
+
+            <button class="btn c-btn btn--right">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="btn-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+            <button class="btn c-btn btn--left">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="btn-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5 8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-services">
+        <h2 class="heading-services">خدمات</h2>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- service 01 -->
+          <div class="service-text-box">
+            <h3 class="heading-tertiary">
+              نصب انواع سیستم های حفاظتی و امنیتی
+            </h3>
+            <p class="service-description">
+              امنیت خود و دارایی‌هایتان را تضمین کنید با نصب انواع سیستم‌های
+              حفاظتی و امنیتی.
+              <br />
+              از دوربین‌های مداربسته تا سیستم‌های امنیتی پیشرفته، ما با
+              ابزارهایی که به شما اطمینان می‌دهند، به شما کمک می‌کنیم تا آرامش
+              خاطر بیشتری را تجربه کنید.
+            </p>
+          </div>
+          <div class="service-img-box">
+            <img src="img/camera.jpg" class="service-img" alt="camera" />
+          </div>
+
+          <!-- service 02 -->
+          <div class="service-img-box">
+            <img src="img/structure.jpg" class="service-img" alt="structure" />
+          </div>
+          <div class="service-text-box">
+            <h3 class="heading-tertiary">
+              طراحی و اجراء انواع سازه های فلزی (صنعتی و ساختمانی)
+            </h3>
+            <p class="service-description">
+              با استفاده از توانایی‌های ما در طراحی و اجرای سازه‌های فلزی، هر
+              پروژه صنعتی یا ساختمانی را به واقعیت تبدیل کنید. از سازه‌های صنعتی
+              گرفته تا ساختمان‌های تجاری، ما با بهره‌گیری از تجربه و دانش فنی
+              خود، به شما اطمینان می‌دهیم که پروژه شما به بهترین شکل ممکن اجرا
+              می‌شود.
+            </p>
+          </div>
+
+          <!-- service 03 -->
+          <div class="service-text-box">
+            <h3 class="heading-tertiary">
+              طراحی و اجراء پروژه های راه و ابنیه
+            </h3>
+            <p class="service-description">
+              ساختارهای شهری را به شکلی کارآمد و مستدام تراکم دهید. با توانایی
+              در طراحی و اجرای پروژه‌های راه و ساختمان، ما با تکنولوژی روز و
+              دانش فنی، به شما کمک می‌کنیم تا زیرساخت‌های شهری را به بهترین شکل
+              ممکن ایجاد و به توسعه پایدار و پیشرفت منطقه کمک کنید.
+            </p>
+          </div>
+          <div class="service-img-box">
+            <img
+              src="img/road_construction.jpg"
+              class="service-img"
+              alt="road_construction"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="features" class="section-features">
+        <h2 class="heading-features">ویژگیهای رایکا نوین افرند</h2>
+        <div class="features-container">
+          <div class="feature-box">
+            <div class="f-box-img">
+              <img src="img/variety.png" class="feature-logo" alt="variety" />
+            </div>
+            <h3 class="heading-tertiary">تنوع خدمات</h3>
+            <p class="feature-description">
+              ارائه یک طیف گسترده از خدمات از نصب سیستم‌های حفاظتی گرفته تا
+              طراحی و اجراء سازه‌های فلزی و پروژه‌های راه و ابنیه، با تمرکز بر
+              ارائه راهکارهای شخصی‌سازی شده واقعی برای هر مشتری.
+            </p>
+          </div>
+          <div class="feature-box f-box--bold">
+            <div class="f-box-img">
+              <img
+                src="img/high-quality.png"
+                class="feature-logo"
+                alt="high-quality"
+              />
+            </div>
+            <h3 class="heading-tertiary">کیفیت بالا</h3>
+            <p class="feature-description">
+              تضمین کیفیت بالا و استفاده از مواد اولیه با ارزش و فناوری‌های
+              پیشرفته در هر مرحله از فرآیند ارائه خدمات، برای اطمینان از ارائه
+              حلول مطلوب و با دوام به مشتریان.
+            </p>
+          </div>
+          <div class="feature-box">
+            <div class="f-box-img">
+              <img
+                src="img/specialization.png"
+                class="feature-logo"
+                alt="specialization"
+              />
+            </div>
+            <h3 class="heading-tertiary">توانمندی‌های تخصصی</h3>
+            <p class="feature-description">
+              تیمی از متخصصان مجرب و متعهد با توانایی‌های فنی عمیق در هر یک از
+              زمینه‌های خدماتی ارائه شده، برای ارائه بهترین و جامع‌ترین راهکارها
+              به مشتریان.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-calltoaction">
+        <div class="calltoaction-box">
+          <a href="contact.html" class="btn call-btn">تماس با ما</a>
+        </div>
+      </section>
+      <section id="partners" class="section-partners">
+        <h2 class="heading-partners">اعضاء شرکت</h2>
+        <div class="container grid grid--3-cols partners-contaner">
+          <div class="partner-box">
+            <img src="img/person1.jpg" class="partner-img" alt="person" />
+            <h3 class="partner-name heading-tertiary">سجاد برجلو</h3>
+            <h4 class="partner-position">هم بنیانگذار و مهندس امنیت</h4>
+            <p class="partner-description">
+              سجاد برجلو با بیش از 10 سال تجربه در صنعت مهندسی و ساختمان، در
+              اجرای پروژه‌های بزرگ و بین‌المللی نقش اساسی داشته و توانسته است به
+              عنوان رهبری مطرح و مورد اعتماد در این حوزه شناخته شود.
+            </p>
+          </div>
+          <div class="partner-box">
+            <img src="img/person2.jpg" class="partner-img" alt="person" />
+            <h3 class="partner-name heading-tertiary">مهندس رضا حسنی</h3>
+            <h4 class="partner-position">هم بنیانگذار و مهندس امنیت</h4>
+            <p class="partner-description">
+              رضا حسنی با بیش از 10 سال تجربه در صنعت مهندسی و ساختمان، در اجرای
+              پروژه‌های بزرگ و بین‌المللی نقش اساسی داشته و توانسته است به عنوان
+              رهبری مطرح و مورد اعتماد در این حوزه شناخته شود.
+            </p>
+          </div>
+          <div class="partner-box">
+            <img src="img/person3.jpg" class="partner-img" alt="person" />
+            <h3 class="partner-name heading-tertiary">محسن کرد</h3>
+            <h4 class="partner-position">هم بنیانگذار و مهندس امنیت</h4>
+            <p class="partner-description">
+              محسن کرد با بیش از 10 سال تجربه در صنعت مهندسی و ساختمان، در اجرای
+              پروژه‌های بزرگ و بین‌المللی نقش اساسی داشته و توانسته است به عنوان
+              رهبری مطرح و مورد اعتماد در این حوزه شناخته شود.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--3-cols">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo">
+            <img class="logo" src="img/R-logo.png" alt="Raikanwin Afrand" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><img
+                  src="img/instagram.svg"
+                  class="social-icon"
+                  alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://t.me/rezao98"
+                ><img
+                  src="img/telegram.svg"
+                  class="social-icon"
+                  alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><img
+                  src="img/linkedin.svg"
+                  class="social-icon"
+                  alt="instagram"
+              /></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2024 by RaikaNowinAfrand, Inc.
+          </p>
+        </div>
+        <div class="address-col">
+          <address class="contacts">
+            <p class="address">
+              آدرس دفتر : کرج، میدان شاه عباسی، روبروی امام زاده حسن، خیابان
+              گلستان یک، درب اول سمت راست، پلاک 1118، واحد 2
+            </p>
+            <p>
+              <a class="footer-link" href="tel:021-1111-1111">0912-501-5256</a
+              ><br />
+              <a class="footer-link" href="tel:021-1111-1111">0919-723-2722</a
+              ><br />
+              <a class="footer-link" href="mailto:info@Raika.com"
+                >info@Raika.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.9104141746162!2d51.00032343041206!3d35.80872959828417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbf0015cece57%3A0xb618767b02a5d181!2z2LHYsdin24zaqdinINmG2YjbjNmGINin2YHYsdmG2K8!5e0!3m2!1sfa!2sus!4v1711751739331!5m2!1sfa!2sus"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
