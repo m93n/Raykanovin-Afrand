@@ -463,10 +463,10 @@
 /* contact */
 
 /**********************/
-/* CONTACT SERCTION */
+/* CTA SERCTION */
 /**********************/
 
-.section-contact {
+.section-cta {
   display: grid;
   column-gap: 3.2rem;
   row-gap: 8rem;
@@ -474,12 +474,28 @@
 
   transform: translate(0, -8%);
   margin-bottom: 6.4rem !important;
+  padding-right: 0rem !important;
+  background-color: #fdf2e9;
+  box-shadow: 0px 2.4px 4.8px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.section-cta .contacts {
+  margin-top: 8rem;
 }
 
 .address-column {
-  padding: 3.2rem 4.8rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 4.8rem 4.8rem 0;
   border-radius: 5px;
-  background-color: #e67e22;
+  /* background-color: #e67e22; */
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.address-column .social-links {
+  justify-self: end;
 }
 
 .contact-link:link,
@@ -506,26 +522,61 @@
   margin-bottom: 12.8rem !important;
 }
 
-.contacts-col-heading {
+.cta-col-heading {
   display: block;
 }
 
-.section-contact .contacts h3 {
+.section-cta .contacts h3 {
   font-size: 1.6rem;
   margin-bottom: 1.6rem;
 }
 
-.section-contact .contacts p {
+.section-cta .contacts p {
   margin-bottom: 3.2rem;
 }
 
-.section-contact .contacts {
-  margin-bottom: 1rem;
+.contact-link .social-icon {
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
-.contact-link .social-icon {
-  height: 3rem;
-  width: 3rem;
+.cta-form-box {
+  padding: 9.6rem 6.4rem 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select,
+#message {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form button {
+}
+
+.message {
+  grid-column: 1 / 3;
 }
 
 /**********************/
