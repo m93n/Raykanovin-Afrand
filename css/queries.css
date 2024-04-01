@@ -15,6 +15,42 @@
   }
 }
 
+/**********************/
+/* BELOW 1200px (Landscape Tablets) */
+/**********************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 2.4rem;
+    row-gap: 4.8rem;
+  }
+
+  .h2 {
+    font-size: 3rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.8rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+}
+
 /* - Font size (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 
 44 / 52 / 62 / 74 / 86 / 98
