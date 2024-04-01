@@ -55,12 +55,65 @@
     column-gap: 2.4rem;
     row-gap: 4.8rem;
     margin-bottom: 3.2rem !important;
+    transform: translate(0, -3%);
   }
 }
 
 /**********************/
-/* BELOW 1200px (Tablets) */
+/* BELOW 944px (Tablets) */
 /**********************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .client-img {
+    height: 7.4rem;
+  }
+
+  .feature-box {
+    padding: 3.2rem 2.4rem;
+  }
+
+  .partner-img {
+    height: 24rem;
+  }
+
+  .partners-contaner {
+    max-width: 86rem !important;
+  }
+
+  .section-cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #message {
+    height: 10em;
+  }
+}
 
 /* - Font size (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 
