@@ -22,12 +22,14 @@ html {
   font-size: 62.5%;
   font-family: "Sahel";
   direction: rtl;
+  overflow-x: hidden;
 }
 
 body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /**********************/

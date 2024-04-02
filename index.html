@@ -13,9 +13,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <a href="index.html">
         <img class="logo" src="img/R-logo.png" alt="Raikanwin Afrand" />
       </a>
@@ -40,6 +48,10 @@
           </li>
         </ul>
       </nav>
+      <button title="menu" class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -285,7 +297,6 @@
         <div class="google-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.9104141746162!2d51.00032343041206!3d35.80872959828417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbf0015cece57%3A0xb618767b02a5d181!2z2LHYsdin24zaqdinINmG2YjbjNmGINin2YHYsdmG2K8!5e0!3m2!1sfa!2sus!4v1711751739331!5m2!1sfa!2sus"
-            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
