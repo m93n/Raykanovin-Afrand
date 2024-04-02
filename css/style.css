@@ -125,7 +125,6 @@
 }
 
 .logos {
-  position: relative;
   display: flex;
   justify-content: space-around;
   gap: 6.4rem;
@@ -375,6 +374,7 @@
 
 .partners-contaner {
   max-width: 109rem !important;
+  justify-content: center;
 }
 
 .partner-name {
@@ -407,6 +407,10 @@
   direction: ltr;
   padding: 8rem 0 8rem 0;
   border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .footer-logo {
