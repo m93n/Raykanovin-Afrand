@@ -113,6 +113,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -132,6 +133,7 @@
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    z-index: 999;
   }
 
   .nav-open .main-nav {
@@ -139,11 +141,11 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
-    z-index: 1;
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
-    display: block;
+    display: inline-block;
+    contain: strict;
   }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
