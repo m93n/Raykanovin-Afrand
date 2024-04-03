@@ -165,7 +165,7 @@
 }
 
 /**********************/
-/* BELOW 704px (Tablets) */
+/* BELOW 704px (Smaller Tablets) */
 /**********************/
 
 @media (max-width: 44em) {
@@ -273,7 +273,7 @@
 }
 
 /**********************/
-/* BELOW 672px (Tablets) */
+/* BELOW 672px */
 /**********************/
 
 @media (max-width: 42em) {
@@ -316,7 +316,7 @@
 }
 
 /**********************/
-/* BELOW 544px (Tablets) */
+/* BELOW 544px (Phones) */
 /**********************/
 
 @media (max-width: 34em) {
