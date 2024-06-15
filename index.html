@@ -18,42 +18,16 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <script defer src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
   </head>
   <body>
-    <header class="header">
-      <a href="index.html">
-        <img class="logo" src="img/R-logo.png" alt="Raikanwin Afrand" />
-      </a>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li>
-            <a class="main-nav-link" href="index.html#services">خدمات</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="index.html#features">ویژگیها</a>
-          </li>
-          <li>
-            <a class="main-nav-link nav-cta" href="contact.html"
-              >مشاوره رایگان</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <button title="menu" class="btn-mobile-nav">
-        <span
-          class="icon-mobile-nav material-symbols-outlined"
-          name="menu-outline"
-        >
-          menu
-        </span>
-        <span
-          class="icon-mobile-nav material-symbols-outlined"
-          name="close-outline"
-        >
-          close
-        </span>
-      </button>
-    </header>
+    <header class="header" id="header"></header>
 
     <main>
       <section class="section-hero">
@@ -213,70 +187,6 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container grid grid--footer">
-        <div class="logo-col">
-          <a href="index.html" class="footer-logo">
-            <img class="logo" src="img/R-logo.png" alt="Raikanwin Afrand" />
-          </a>
-
-          <ul class="social-links">
-            <li>
-              <a class="footer-link" href="#"
-                ><img
-                  src="img/instagram.svg"
-                  class="social-icon"
-                  alt="instagram"
-              /></a>
-            </li>
-            <li>
-              <a class="footer-link" href="https://t.me/rezao98"
-                ><img
-                  src="img/telegram.svg"
-                  class="social-icon"
-                  alt="instagram"
-              /></a>
-            </li>
-            <li>
-              <a class="footer-link" href="#"
-                ><img
-                  src="img/linkedin.svg"
-                  class="social-icon"
-                  alt="instagram"
-              /></a>
-            </li>
-          </ul>
-
-          <p class="copyright">
-            Copyright &copy; 2024 by RaikaNowinAfrand, Inc.
-          </p>
-        </div>
-        <div class="address-col">
-          <address class="contacts">
-            <p class="address">
-              آدرس دفتر : کرج، میدان شاه عباسی، روبروی امام زاده حسن، خیابان
-              گلستان یک، درب اول سمت راست، پلاک 1118، واحد 2
-            </p>
-            <p>
-              <a class="footer-link" href="tel:021-1111-1111">0912-501-5256</a
-              ><br />
-              <a class="footer-link" href="tel:021-1111-1111">0919-723-2722</a
-              ><br />
-              <a class="footer-link" href="mailto:info@Raika.com"
-                >info@Raika.com</a
-              >
-            </p>
-          </address>
-        </div>
-        <div class="google-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.9104141746162!2d51.00032343041206!3d35.80872959828417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbf0015cece57%3A0xb618767b02a5d181!2z2LHYsdin24zaqdinINmG2YjbjNmGINin2YHYsdmG2K8!5e0!3m2!1sfa!2sus!4v1711751739331!5m2!1sfa!2sus"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </div>
-    </footer>
+    <footer class="footer" id="footer"></footer>
   </body>
 </html>
