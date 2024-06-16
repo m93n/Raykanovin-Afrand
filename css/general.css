@@ -23,6 +23,7 @@ html {
   font-family: "Sahel";
   direction: rtl;
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 body {
